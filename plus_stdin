@@ -1,5 +1,8 @@
 #!/uer/bin/python3
-#©　2022 Masaki Daira
+#©　2022 Masaki Dairia
+# SPDX-FileCopyrightText: 2022 Masaki Daira
+# SPDX-License-Identifier: BSD-3-Clause
+
 import sys
 
 ans = 0
