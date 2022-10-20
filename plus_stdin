@@ -1,4 +1,5 @@
 #!/uer/bin/python3
+#©　2022 Masaki Daira
 import sys
 
 ans = 0
