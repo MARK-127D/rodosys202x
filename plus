@@ -1,0 +1,17 @@
+#!/uer/bin/python3
+#©　2022 Masaki Dairia
+# SPDX-FileCopyrightText: 2022 Masaki Daira
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+
+ans = 0
+for line in sys.stdin:
+    try:
+        ans += int(line)
+    except:
+        ans += float(line)
+
+
+print(ans)
+
