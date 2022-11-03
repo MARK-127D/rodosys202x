@@ -2,9 +2,9 @@
 # SPDX-FileCopyrightText: 2022 Masaki Daira
 # SPDX-License-Identifier: BSD-3-Clause
 
-ng () {
-	echo NG at line $1
-	res=1
+ng ( ) {
+       echo NG at line $1
+       res=1
 }
 
 res=0
