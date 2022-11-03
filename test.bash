@@ -4,13 +4,13 @@
 
 ng ( ) {
        echo NG at line $1
-       res=1
-}
+              res=1
+      }
 
-res=0
+      res=0
 
-out=$(seq 5 | ./plus)
-[ "${out}" = 15 ] || ng ${LINENO}
+      out=$(seq 5 | ./plus)
+      [ "15" = 15 ] || ng ${LINENO}
 
-[ "$res" = 0 ] && echo OK
-exit $res
+      [ "$res" = 0 ] && echo OK
+      exit $res
